@@ -1,4 +1,4 @@
-CropGuard AI 🛡️🌾
+CropGuard AI 🛡️
 AI-Powered Crop Protection Platform - Real-time disease diagnosis, weather alerts, sensor monitoring for farmers worldwide. Built with React 19 + Vite + Supabase for scalable, self-hosted precision agriculture.
 
 The Problem & Solution
@@ -35,7 +35,7 @@ Features: AI diagnosis, alerts dashboard, secure auth, responsive UI. Deploy to 
 
 
 Task Completed
-CropGuard AI 🛡️🌾
+CropGuard AI 
 AI-Powered Crop Protection Platform - Real-time disease diagnosis (98% acc), weather alerts, sensor monitoring for farmers. React + Supabase full-stack app.
 
 Agriculture loses 20-40% yields ($220B) to diseases/weather. Manual detection? Slow & expert-only. CropGuard fixes it: 2s AI leaf scans, realtime alerts, dashboard analytics. 30% yield boost ROI.
@@ -48,4 +48,4 @@ Start:
 crop-guard-ai-zeta.vercel.app
 Supabase env vars needed. Features: Diagnosis/Alerts/Dashboard/Auth.
 
-MIT | Demo live | Full README in repo.
+
