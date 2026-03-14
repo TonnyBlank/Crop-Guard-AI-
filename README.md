@@ -12,13 +12,7 @@ CropGuard AI delivers:
 📡 Sensor + Weather Integration for proactive protection
 Why Choose CropGuard? 30% yield boost ($15K+/ha ROI), 2s vs 2-day diagnosis, scalable to 1M+ images/month, empowers global smallholders.
 
-Beats Competitors:
 
-Feature	CropGuard	Plantix	Agrio
-Multi-modal AI	✅	❌	❌
-Realtime Alerts	✅	⚠️	❌
-Open APIs	✅	❌	❌
-Self-hosted	✅	❌	❌
 Tech Stack: React/TS + Tailwind/shadcn + Supabase (Auth/DB/Realtime/Edge Functions) + Vitest/Playwright. Market: $12B precision ag (13% CAGR).
 
 Quick Start
