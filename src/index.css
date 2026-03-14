@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 90 20% 97%;
+    --foreground: 150 30% 10%;
+
+    --card: 90 15% 95%;
+    --card-foreground: 150 30% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 150 30% 10%;
+
+    --primary: 142 50% 28%;
+    --primary-foreground: 90 30% 97%;
+
+    --secondary: 38 85% 55%;
+    --secondary-foreground: 38 90% 12%;
+
+    --muted: 90 10% 90%;
+    --muted-foreground: 150 10% 40%;
+
+    --accent: 142 30% 90%;
+    --accent-foreground: 142 50% 18%;
+
+    --destructive: 0 72% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 142 15% 85%;
+    --input: 142 15% 85%;
+    --ring: 142 50% 28%;
+
+    --radius: 0.75rem;
+
+    --warning: 38 92% 50%;
+    --warning-foreground: 38 90% 12%;
+    --success: 142 60% 40%;
+    --success-foreground: 0 0% 100%;
+    --info: 200 80% 50%;
+    --info-foreground: 0 0% 100%;
+
+    --sidebar-background: 142 20% 96%;
+    --sidebar-foreground: 150 30% 10%;
+    --sidebar-primary: 142 50% 28%;
+    --sidebar-primary-foreground: 90 30% 97%;
+    --sidebar-accent: 142 20% 90%;
+    --sidebar-accent-foreground: 142 50% 18%;
+    --sidebar-border: 142 15% 85%;
+    --sidebar-ring: 142 50% 28%;
+
+    --font-display: 'Space Grotesk', sans-serif;
+    --font-body: 'DM Sans', sans-serif;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+  }
+}

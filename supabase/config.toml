@@ -1,0 +1,10 @@
+project_id = "osopfpoatkbfmkerhzlo"
+
+[functions.analyze-crop]
+verify_jwt = false
+
+[functions.sensor-data]
+verify_jwt = false
+
+[functions.weather]
+verify_jwt = false
