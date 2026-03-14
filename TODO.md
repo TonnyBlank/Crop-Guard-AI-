@@ -1,14 +1,7 @@
-# Fixed Errors in Alerts.tsx & Dashboard.tsx
-
-## Previous Status:
-✅ Step 1-3: Imports/schema/TS clean
-
-## Current Fix Steps:
-- [x] Create this updated TODO.md  
-- [x] Step 4: Fix AlertsContext.tsx (DB column mapping: msg/title/type, remove markRead duplicate, align unread to resolved)  
-- [x] Step 5: Fix Dashboard.tsx (createAlert insert schema, integrate useAlerts, realtime filter user_id, sensor mapping, error handling)  
-- [x] Step 6: Update Alerts.tsx filter consistency  
-- [ ] Step 7: Test /dashboard & /alerts (no console errors, alerts flow)
-
-**Runtime errors target: Supabase insert failures, null fields, realtime subscription fails.**
+# Auth Flow Fixes
+1. [x] Read ProtectedRoute.tsx 
+2. [x] Update App.tsx for initial login redirect
+3. [x] Update Navbar.tsx for signout redirect
+4. [x] Test: bun run dev (server running http://localhost:8081)
+5. [ ] Commit & push
 

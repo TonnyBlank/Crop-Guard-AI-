@@ -1,4 +1,4 @@
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Leaf, Menu, X, LogOut, LogIn, Bell } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
@@ -15,6 +15,7 @@ const navItems = [
 ];
 
 const Navbar = () => {
+  const navigate = useNavigate();
   const location = useLocation();
   const [open, setOpen] = useState(false);
   const { user, signOut } = useAuth();
@@ -57,7 +58,7 @@ const Navbar = () => {
             </Link>
           ))}
           {user ? (
-            <Button variant="ghost" size="sm" className="ml-2 gap-2" onClick={signOut}>
+            <Button variant="ghost" size="sm" className="ml-2 gap-2" onClick={async () => { await signOut(); navigate("/login"); }}>
               <LogOut className="h-4 w-4" /> Sign Out
             </Button>
           ) : (
@@ -104,7 +105,7 @@ const Navbar = () => {
             </Link>
           ))}
           {user ? (
-            <Button variant="ghost" className="mt-2 w-full gap-2" onClick={() => { signOut(); setOpen(false); }}>
+            <Button variant="ghost" className="mt-2 w-full gap-2" onClick={async () => { await signOut(); setOpen(false); navigate("/login"); }}>
               <LogOut className="h-4 w-4" /> Sign Out
             </Button>
           ) : (
