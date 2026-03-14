@@ -45,9 +45,7 @@ Unique: Multi-modal AI, open integrations, self-hosted (vs Plantix/Agrio).
 Stack: React19/TS/Vite/Tailwind/shadcn + Supabase (Auth/DB/Edge AI functions).
 
 Start:
-
-
-bun i && bun dev  # localhost:8081
+crop-guard-ai-zeta.vercel.app
 Supabase env vars needed. Features: Diagnosis/Alerts/Dashboard/Auth.
 
 MIT | Demo live | Full README in repo.
